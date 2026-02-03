@@ -196,10 +196,6 @@ while True:
         print("Égalité ! Personne ne gagne cette fois.")
         game_finished = True
         winner = 0  # Pas de gagnant
-        restart()
-        # On change le joueur qui commence pour la prochaine
-        starting_player = 2 if starting_player == 1 else 1
-        current_player = starting_player
 
     # Si quelqu'un a gagné, on affiche un message et on prépare la prochaine manche
     if game_finished:
